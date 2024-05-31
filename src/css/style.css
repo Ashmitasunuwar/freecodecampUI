@@ -1,0 +1,75 @@
+.site-footer {
+    background: #dfdfe2;
+    color: #2a2a40;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 40px 15px;
+    margin-top: 100px;
+}
+
+.site-footer .col-header,
+.trending-guides .col-header {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 0 15px 15px;
+    text-align: center;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+a:focus,
+a:hover {
+    background-color: #dfdfe2;
+    color: #2a2a40;
+    text-decoration: none;
+}
+
+.site-footer a {
+    color: #2a2a40;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.footer-bottom,
+.footer-top {
+    margin-inline: auto;
+    width: min(100%, 1300px);
+}
+
+.footer-top {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(30.5em, 1fr));
+}
+
+.footer-bottom .our-nonprofit {
+    justify-content: space-between;
+    padding-inline: 10px;
+    padding-top: 1.25rem;
+    display: flex;
+}
+
+.site-footer p {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 0 1.45rem;
+}
+
+.trending-guides {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 58%;
+    flex: 1 0 58%;
+}
+
+.trending-guides-articles {
+    grid-column-gap: 3rem;
+    grid-row-gap: .5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+}

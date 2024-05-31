@@ -1,0 +1,31 @@
+.inputstyle {
+    width: 100%;
+    background-color: #3b3b4f;
+    color: #fff;
+    outline: none;
+    height: 39px;
+    border: transparent;
+}
+
+.iconSearch {
+    background-color: #3b3b4f;
+    color: #fff;
+    margin-right: 0px;
+    border-radius: 0px;
+    border: transparent;
+}
+
+.inputbtn {
+    background-color: #3b3b4f;
+}
+
+.searchDiv {
+    display: flex;
+
+}
+
+
+.searchDiv:focus {
+
+    border: 3px solid #198eee;
+}

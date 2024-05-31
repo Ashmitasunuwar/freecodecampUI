@@ -1,0 +1,147 @@
+* {
+    font-family: 'Lato';
+}
+
+.navbar-singnIn {
+    width: 100%;
+    height: 38px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0a0a23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginDialog {
+    margin: 54px 40px;
+    height: 668px;
+    width: 400px;
+    border: 3px solid #0a0a23;
+    background-color: #ffffff;
+}
+
+.loginform {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.loginHeader {
+    position: relative;
+    height: 204px;
+    text-align: center;
+    margin: 40px 40px 0px 40px;
+}
+
+.logoImgHeader {
+    margin: 0;
+    width: auto;
+}
+
+.headerInfo {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #1e212a;
+    font: inherit;
+    font-size: 24px;
+
+}
+
+.login-Option {
+    width: 308px;
+    height: 46px;
+    border: 3px solid #c9cace;
+    margin: 0px 43px 8px 43px;
+}
+
+.login-Option:hover {
+    background-color: #d0d0d5;
+}
+
+.external-logo {
+    margin-left: 0px;
+    width: 52px;
+    margin: 0 8px;
+    margin-top: 13px;
+}
+
+.title {
+    width: 248px;
+}
+
+.divline {
+    border: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.emailSubmitBtn {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    border: 3px solid #f1a02a;
+    background-color: #feac32;
+
+}
+
+.emailSubmitBtn:hover {
+
+    background-color: #fecc4c;
+}
+
+.emailInput {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: transparent;
+}
+
+.errorcls {
+    margin-bottom: var(--spacing-1-5);
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: left;
+    color: #850000;
+}
+
+.errorcls1 {
+    width: 16px;
+    margin-right: 8px;
+    /* background-image: url('./error.svg');*/
+
+}
+
+.para {
+    margin-top: 16px;
+    border: transparent;
+    text-align: center;
+    font-size: large;
+}
+
+.para:hover {
+    background-color: #ffffff;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 135px;
+    text-align: center;
+    color: #3b3b4f;
+    margin-top: 16px;
+
+}
+
+.paragraph {
+    line-height: 6px;
+}
